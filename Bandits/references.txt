@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/20063/whats-the-best-way-to-parse-command-line-arguments
+https://blog.finxter.com/python-how-to-import-modules-from-another-folder/
+https://docs.python.org/3/library/argparse.html
+https://stackoverflow.com/questions/432112/is-there-a-numpy-function-to-return-the-first-index-of-something-in-an-array
+https://stackoverflow.com/questions/3781851/run-a-python-script-from-another-python-script-passing-in-arguments
+https://stackoverflow.com/questions/9622163/save-plot-to-image-file-instead-of-displaying-it-using-matplotlib
