@@ -48,3 +48,27 @@ Linear Programming is a mathematical optimization technique used for finding the
 - Interpret Results: Analyze the solution to interpret the values of decision variables and the optimized objective function value.
 
 ## Results
+The policies have been labeled according to the code files. 
+- Player 1 trained against Player 2 with p2_policy1
+  
+| Player 1 | Player 2 | Draw |
+| ---- | ---- | ---- | 
+| 1000 | 0 | 0 |
+
+- Player 1 trained against Player 2 with p2_policy2
+  
+| Player 1 | Player 2 | Draw |
+| ---- | ---- | ---- | 
+| 864 | 103 | 33 |
+
+- Player 2 trained against Player 1 with p1_policy1
+  
+| Player 1 | Player 2 | Draw |
+| ---- | ---- | ---- | 
+| 0 | 1000 | 0 |
+
+- Player 2 trained against Player 1 with p1_policy2
+  
+| Player 1 | Player 2 | Draw |
+| ---- | ---- | ---- | 
+| 1 | 999 | 0 |
