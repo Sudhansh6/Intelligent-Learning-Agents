@@ -1,0 +1,8 @@
+http://developer.rhino3d.com/guides/rhinopython/python-statements/#:~:text=You%20cannot%20split%20a%20statement%20into%20multiple%20lines%20in%20Python,continued%20on%20the%20next%20line.
+https://www.delftstack.com/howto/python/initialize-a-dictionary-python/
+https://www.google.com/search?q=argmax+in+numpy&oq=argmax+in+numpy&aqs=chrome..69i57.4543j0j4&sourceid=chrome&ie=UTF-8
+https://www.delftstack.com/howto/numpy/python-numpy-deep-copy/#:~:text=NumPy%20Deep%20Copy%20With%20the%20copy.,-deepcopy()%20Function&text=A%20shallow%20copy%20means%20the,array%20into%20the%20copied%20array.
+https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#:~:text=zeros_like,-numpy.&text=Return%20an%20array%20of%20zeros,type%20as%20a%20given%20array.&text=The%20shape%20and%20data%2Dtype,attributes%20of%20the%20returned%20array.
+https://stackoverflow.com/questions/63738853/how-to-print-a-particular-constraint-in-pulp-for-large-problems
+https://www.programiz.com/python-programming/methods/list/index
+https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html
