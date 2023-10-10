@@ -1,0 +1,5 @@
+Sutton and Barto
+https://www.w3schools.com/python/numpy/numpy_array_slicing.asp
+https://stackoverflow.com/questions/59440197/oserror-errno-22-invalid-argument-when-trying-plt-savefig
+https://stackoverflow.com/questions/57211609/how-to-delete-or-clear-printed-text-in-python
+https://michaeloneill.github.io/RL-tutorial.html

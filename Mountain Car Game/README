@@ -1,0 +1,25 @@
+ - No new functions have been added in the code.
+ - Here are the custom variables defined in the class.
+   self.d_granularity -> The number of buckets in d dimension
+	self.v_granularity -> The number of buckets in v dimension
+	self.d_granule = (self.env.observation_space.high[0] - self.env.observation_space.low[0])/self.d_granularity -> Size of bucket in d dimension
+	self.v_granule = (self.env.observation_space.high[1] - self.env.observation_space.low[1])/self.v_granularity -> Size of bucket in v dimension
+
+	self.num_tilings -> The number of tilings
+	self.d_tile_width = self.d_granule -> tile width in d dimension
+	self.v_tile_width = self.v_granule -> Tile width in v dimension
+	self.d_tiles = (self.d_granularity + 1) -> Number of tiles in d dimension
+	self.v_tiles = (self.v_granularity + 1) -> Number of tiles in v dimension
+	self.offset = 1/self.num_tilings -> The offset across tilings
+
+- The get_table_features function returns a state with a single value set to 1 (rest 0) that represents the one-hot state based on the input and the bucket it falls into.
+
+- get_better_features function returns state with values set to 1 at indices where the tiles overlap with the input. The rest of the values are set to 0.
+
+- The choose_action function choose a random action with probability epsilon. Otherwise, it chooses the action with the max Q value.
+
+- The update function updates the weights based on the SARSA update rule.
+
+- The weights are initialized as follows
+self.weights_T1 = np.zeros(((self.d_granularity + 1)*(self.v_granularity + 1), 3)) -> To account for the edges we add + 1
+self.weights_T2 = np.zeros((self.num_tilings*self.d_tiles*self.v_tiles, 3)) 
